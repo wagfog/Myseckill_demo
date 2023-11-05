@@ -6,5 +6,5 @@ type ServiceInstance struct {
 	Weight    int    // 权重
 	CurWeight int    // 当前权重
 
-	GrpcPort int
+	GrpcPort int // RPC 服务的端口号
 }
